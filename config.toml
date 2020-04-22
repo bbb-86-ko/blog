@@ -1,4 +1,58 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "ananke"
+# baseURL = "http://example.org/"
+# languageCode = "en-us"
+# title = "My New Hugo Site"
+# theme = "hugo_theme_pickles"
+
+baseurl = "https://bbb-86-ko.github.io"
+
+languageCode = "en-UK"
+
+title = "bbb.86.ko"
+
+description = "blog by bbb"
+
+config = "config.toml"
+
+tags = ["blog", "sidebar", "SEO"]
+
+theme = "onepress"
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+# Disable comments by leaving disqusShortname empty
+disqusShortname = "your disqus shortname"
+copyright = "Copyright © 2019, Jeremiah Succeed; all rights reserved."
+canonifyURLS = true
+paginate = 12
+
+[params]
+	author = "Jeremiah Succeed"
+	bio = "Fullstack web developer and Templates designer."
+	logo = "/images/onepress-logo.png"
+	avatar = "/images/onepress-author.png"
+	opengraphImage = "/images/onepress-logo.jpg"
+	enableRSS = true
+
+	customCSS = false
+	readMore = "Read Up"
+    
+    # Social
+	twitter  = ""
+	github   = ""
+	facebook  = ""
+	linkedin  = ""
+
+    # Widget
+    widgets = false
+    
+    # Author box and Share button
+    authorCard = false 
+    shareButton = false
+    
+    # Code highlighting with highlight.js
+    highlightJS = true
+
+# Taxonomies
+[taxonomies]
+    tag = "tags"
