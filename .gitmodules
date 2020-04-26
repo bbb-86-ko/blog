@@ -16,3 +16,15 @@
 [submodule "themes/onepress"]
 	path = themes/onepress
 	url = https://github.com/ijsucceed/onepress.git
+[submodule "hugo-creative-portfolio-theme"]
+	path = hugo-creative-portfolio-theme
+	url = https://github.com/kishaningithub/hugo-creative-portfolio-theme.git
+[submodule "themes/hugo-creative-portfolio-theme"]
+	path = themes/hugo-creative-portfolio-theme
+	url = https://github.com/kishaningithub/hugo-creative-portfolio-theme.git
+[submodule "themes/liva-hugo"]
+	path = themes/liva-hugo
+	url = https://github.com/themefisher/liva-hugo.git
+[submodule "themes/hugo-theme-learn"]
+	path = themes/hugo-theme-learn
+	url = https://github.com/matcornic/hugo-theme-learn.git
