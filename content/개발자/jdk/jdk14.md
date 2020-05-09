@@ -124,12 +124,14 @@ switch (day) {
 
 
 #### 신규 switch 사용의 예
+```
 switch (day) {
     case MONDAY, FRIDAY, SUNDAY -> System.out.println(6);
     case TUESDAY                -> System.out.println(7);
     case THURSDAY, SATURDAY     -> System.out.println(8);
     case WEDNESDAY              -> System.out.println(9);
 }
+```
 
 우리는 case L이 매칭되면 오른쪽의 label만 실행되는 새로운 형태의 switch label "case L ->" 소개를 제안한다. 또한 commas 구분으로 단일 case multiple constants 허용한다.
 
@@ -193,7 +195,8 @@ int numLetters = switch (day) {
 
 
 #### Description
-1) Arrow labels
+##### 1) Arrow labels
+
 "case L ->" labels을 추가하였고 만약 L이 매치되며 "->" 오른쪽을 실행한다.
 
 ```
@@ -220,7 +223,8 @@ two
 many
 ```
 
-2) Switch expressions
+##### 2) Switch expressions
+
 switch statement를 expression으로 사용할 수 있다.
 
 ```
@@ -251,7 +255,8 @@ type을 알고 있으면 switch expression의 type은 target type이다. 만약 
 standalone type은 각 case arm의 유형을 합하여 계산됩니다.
 (arm에서 서로 다른 타입을 전달하면 어떻게 되는지??)
 
-3) Yielding a value
+##### 3) Yielding a value
+
 대부분의 switch expressions는 "case L ->" switch label 오른쪽에 single expression을 가지고 있다.
 
 full block을 사용하고 return value가 필요한 경우 enclosing switch expression으로 yield를 사용한다.
@@ -289,7 +294,8 @@ break 및 yield의 두 statements는 switch statements과 switch expressions 간
 yield는 제한된 식별자이다.(var) 클래스 이름으로 yield는 불가하다.
 
 
-4) Exhaustiveness
+##### 4) Exhaustiveness
+
 switch expression의 경우 가능한 모든 값에 매치되는 switch label이어야 한다.
 
 실제로 이것은 default가 필요함을 의미한다. 그러나 알려진 모든 constants를 포괄하는 enum switch expression의 경우 enum definition가 compile-time과 runtime간에 변경되었음을 나타내는 default 절이 compiler에 의해 삽입됩니다.
@@ -340,11 +346,9 @@ z:
 ```
 
 
-
 #### Dependencies
 이 JEP는 JEP 325와 JEP 354로부터 확장되었지만 두 JEP에 의존하지 않는다.
 JEP 305로 시작하는 패턴 일치에 대한 향후 지원은 이 JEP를 기반으로합니다.
-
 
 
 ## 362:	Deprecate the Solaris and SPARC Ports

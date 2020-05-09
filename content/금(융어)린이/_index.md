@@ -1,11 +1,12 @@
 ---
 title: "금(융어)린이"
 chapter: true
-weight: 5
+weight: 2
+showhidden: true
 ---
 
-### 금린이의 투자공부
+## 금(융어)린이의 투자공부
 
-# Basics
+# what is my goal?
 
-Discover what this Hugo theme is all about and the core-concepts behind it.
+10년 20년을 목표로 투자 공부를 지속하자

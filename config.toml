@@ -4,7 +4,7 @@ baseurl = "https://bbb-86-ko.github.io"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
-title = "Hugo Learn Documentation"
+title = "I am BBB"
 theme = "hugo-theme-learn"
 #themesdir = "../.."
 metaDataFormat = "yaml"
