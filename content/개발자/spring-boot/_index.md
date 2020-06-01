@@ -1,5 +1,5 @@
 ---
-title: "spring boot release note"
+title: "Spring Boot Release Notes"
 showhidden: true
 ---
 
